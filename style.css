@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 50px;
+    padding-top: 20px;
+    height: 50px;
+}
+
+.hero-sec-two{
+    display: flex;
+    margin-top: -700px;
+    margin-left: 750px;
+    justify-content: space-around;
+}
+
+.hero-sec-two .img2{
+    display: flex;
+    top: -50px;
+    position: relative;
+}
+
+.text-sec{
+    display: flex;
+    padding-left: 837px;
+    font-size: 33px;
+    position: absolute;
+    margin-top: 45px;
+    font-family: math;
+}
+
+.bottom-text{
+    display: flex;
+    margin-left: 820px;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sub-sec{
+    display: flex;
+    margin-left: 752px;
+    margin-top: 70px;
+}
+
+.sub-sec input{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: aliceblue;
+    width: 486px;
+    height: 45px;
+    margin-top: -25px;
+}
+
+.sub-sec button{
+    background-color: rgb(64, 64, 146);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    width: 92px;
+    width: 92px;
+    margin-top: -19px;
+    height: 33px;
+    position: absolute;
+    margin-left: 444px;
+}
+
+.copy-sec{
+    margin-left: 860px;
+    margin-top: 161px;
+    font-size: 15px;
+    font-family: math;
+    height: 50px;
+}
+
+@media only screen and (max-width: 1300px){
+    body{
+        flex-direction: column;
+        /* flex-wrap: wrap;
+        display: flex; */
+    }
+
+    .hero-sec{
+        display: flex;
+    flex-direction: column;
+    }
+
+    .hero-sec-two{
+        margin: auto;
+        padding: 115px;
+        justify-content: flex-start;
+        column-gap: 233px;
+    }
+    
+    .bottom-text{
+        margin: auto;
+        margin-top: -104px;
+    }
+
+    .sub-sec{
+        margin: auto;
+        padding-top: 75px;
+    }
+
+    .copy-sec{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding-top: 29px;
+    }
+
+    .text-sec h1{
+        /* margin: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center; */
+    display: none;
+    }
+}
+
+
+@media only screen and (min-width: 937px) {
+    .hero-sec-two{
+        margin: auto;
+    }
+    
+}
